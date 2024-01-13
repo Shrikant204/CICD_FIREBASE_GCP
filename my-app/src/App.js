@@ -1,13 +1,13 @@
 // App.js
 import React, { useState } from 'react';
-<button onClick={generate} className="but">Generate passwords</button>
+
 const App = () => {
   const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9","~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?",
 "/"];
   const [pass1, setPass1] = useState('');
   const [pass2, setPass2] = useState('');
 
-  const generate = () => {
+  function generate ()  {
     let generatedPass1 = '';
     let generatedPass2 = '';
 
@@ -28,6 +28,7 @@ const App = () => {
         <input type="text" value={pass1} disabled />
         <input type="text" value={pass2} disabled />
       </div>
+      {/* Other components and content */}
     </div>
   );
 };
