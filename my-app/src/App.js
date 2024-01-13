@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import "./index.css"
 function App() {
 
   const [pass1, setPass1] = useState('');
@@ -22,15 +22,17 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <h1>Your React App</h1>
-      <button onClick={generatePassword}>Generate Passwords</button>
-      <div>
-        <input type="text" value={pass1} disabled />
-        <input type="text" value={pass2} disabled />
-      </div>
-      {/* Other components and content */}
+    <div className="bod">
+    <h1 id="sub1">Generate a<br/>
+      <span id="sub2">random password </span> </h1>
+    <p className="para">Never use an insecure password again.</p>
+    <button className="but" onClick={generatePassword}>Generate passwords</button>
+    <div className="line"></div>
+    <div className="password">
+      <input type="text" id="pass1" value={pass1} disabled/>
+      <input type="text" id="pass2" value={pass2} disabled/>
     </div>
+  </div>
   );
 };
 
