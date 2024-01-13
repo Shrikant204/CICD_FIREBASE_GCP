@@ -1,0 +1,82 @@
+body {
+    background-color:#1F2937;
+    width: 550px;
+    height: 550px;
+}
+
+
+#sub1{
+    font-family: Karla;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    color: #FFF; 
+    line-height: 40px; 
+    letter-spacing: -1px;
+}
+
+#sub2{
+    font-family: Karla;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    color: #4ADF86;
+    line-height: 40px; 
+    letter-spacing: -1px;
+}
+
+.para{
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color:#D5D4D8
+}
+
+.but{
+    color:#FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    background-color: #10B981;
+    border-radius: 6px;
+    padding: 9px 17px 9px 15px;
+    border:none;
+    margin:0px 0px 30px 0px;
+    
+}
+
+#pass1{
+    width:211px;
+    height:39px;
+    background-color: #273549;
+    border-radius:6px;
+    border:none;
+    color: #4ADF86;
+    margin:20px 20px 0px 0px;
+    text-align: center;
+}
+
+#pass2{
+        width:211px;
+        height:39px;
+        background-color: #273549;
+        border-radius:6px;
+        border:none;
+        color: #4ADF86;
+        margin:20px 00px 0px 0px;
+        text-align: center;
+    }
+.password{
+    display: flex
+}
+
+.line{
+    width: 446px;
+    height: 1px;
+    background-color:#2F3E53;
+}
+.bod{
+    margin: 115px 52px;
+}
